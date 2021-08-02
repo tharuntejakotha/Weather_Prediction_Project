@@ -9,7 +9,8 @@
 <div class="column">
 <form action="/predict" method="POST">
   <label for="Year">Year:</label>
-  <select name="year" id="year">
+  <select name="year" id="year" required>
+<option value=""></option>	  
 <option value="2018">2018</option>
 <option value="2019">2019</option>	
 <option value="2020">2020</option>
@@ -19,7 +20,8 @@
   <!--<label>MONTH</label>
   <input type="text" name="month" placeholder=" Enter from 0 - 11"><br><br>--!>
 	<label for="Month">Month:</label>
-  <select name="month" id="month">
+  <select name="month" id="month" required>
+<option value=""></option>
 <option value="0">Jan</option>
 <option value="1">Feb</option>	
 <option value="2">Mar</option>
