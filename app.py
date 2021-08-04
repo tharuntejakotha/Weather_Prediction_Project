@@ -1,14 +1,6 @@
 from flask import Flask,render_template,request
 import numpy as np # For Linear Algebra
 import pandas as pd # To Work With Data
-# for visualizations
-#import plotly.express as px 
-#import plotly.graph_objects as go
-#from plotly.subplots import make_subplots
-#from datetime import datetime # Time Series analysis.
-#from sklearn.tree import DecisionTreeRegressor
-#from sklearn.model_selection import train_test_split 
-#from sklearn.metrics import r2_score 
 import sklearn
 import sklearn.utils
 import pickle
