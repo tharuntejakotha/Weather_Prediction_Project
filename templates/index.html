@@ -9,8 +9,7 @@
 <div class="column">
 <form action="/predict" method="POST">
   <label for="Year">Year:</label>
-  <select name="year" id="year" required>
-<option value=""></option>	  
+  <select name="year" id="year" required>	  
 <option value="2018">2018</option>
 <option value="2019">2019</option>	
 <option value="2020">2020</option>
@@ -21,7 +20,6 @@
   <input type="text" name="month" placeholder=" Enter from 0 - 11"><br><br>--!>
 	<label for="Month">Month:</label>
   <select name="month" id="month" required>
-<option value=""></option>
 <option value="0">Jan</option>
 <option value="1">Feb</option>	
 <option value="2">Mar</option>
@@ -39,12 +37,15 @@
 
 </form>
 </div> 
-<div class="row">
+<form>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="row">
 
 	{% if prediction %}
 	<h2 class="text-warning">predicted temperature is :{{prediction}}</h2>
 	{% endif %}
 </div>
+</form>
 
 
 
