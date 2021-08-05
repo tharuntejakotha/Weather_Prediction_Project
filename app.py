@@ -1,7 +1,5 @@
 from flask import Flask,render_template,request
-import numpy as np # For Linear Algebra
-import pandas as pd # To Work With Data
-import sklearn.utils
+
 import pickle
 
 app = Flask(__name__)
